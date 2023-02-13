@@ -7,5 +7,14 @@ function addition(...args)
     return sum;
 }
 
+function product(...args)
+{
+    let product=1;
+    for(let num of args)
+    {
+        product*=num;
+    }
+    return product;
+}
 
-console.log(addition(2, 34, 55, 6, 4));
+console.log(product(2, 34, 55, 6, 4))
