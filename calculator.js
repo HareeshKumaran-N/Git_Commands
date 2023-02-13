@@ -17,4 +17,4 @@ function product(...args)
     return product;
 }
 
-console.log(product(2, 34, 55, 6, 4));
+console.log(product(2, 34, 55, 6, 4))
